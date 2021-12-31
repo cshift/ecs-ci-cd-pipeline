@@ -11,7 +11,7 @@ Terraform 코드로 통한 AWS ECS, Code Series를 프로비저닝
 
 ## Scenario
 
-![image-20211231121124021](/Users/choedachan/Library/Application Support/typora-user-images/image-20211231121124021.png)
+![image](https://user-images.githubusercontent.com/77256060/147801679-6aba0538-6765-41d9-aed4-1ee9998176dd.png)
 
 1. Terraform으로 프로비저닝 ECS, ALB, CodePipeline, CodeBuild, CodeDeploy
 
@@ -24,7 +24,6 @@ Terraform 코드로 통한 AWS ECS, Code Series를 프로비저닝
 
    * Option #1 : CodePipeline 자체 배포
    * Option #2 : CodeDeploy를 통한 배포 (Recommand)
-
    [환경변수 : deployment_controller](https://github.com/cshift/ecs-ci-cd-pipeline/blob/main/ecs/terraform.auto.tfvars)
 
 ## Terraform Workspaces List
