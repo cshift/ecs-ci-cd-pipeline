@@ -1,5 +1,5 @@
 # ecs-ci-cd-pipeline
-## Introducetion
+## Introduction
 
 Terraform 코드로 통한 AWS ECS, Code Series를 프로비저닝
 
